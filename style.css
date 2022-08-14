@@ -1,0 +1,59 @@
+*{
+    font-family: GurajadaRegular,'Comic Sans MS', cursive;
+}
+@font-face {
+    font-family: GurajadaRegular;
+    src: url(/GurajadaRegular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+.form {
+    width: 600px;
+    height: 600px;
+    margin-left: 10%;
+    padding: 30px;
+}
+.form_code {
+    font-size: 70px;
+    font-weight: 700;
+}
+textarea {
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    resize: none;
+    border: 1px solid black;
+}
+.form_button {
+    background-color: rgb(52, 174, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+    height: 75px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.form_button:hover{
+    background-color: rgb(42, 135, 105); 
+}
+.form_button:active{
+    box-shadow: 4px 7px rgb(22, 71, 55);
+}
+.realiser{
+    border: 5px solid rgb(42, 135, 105);
+    padding: 30px;
+    margin-top: 150px;
+    margin-right: 15%;
+    width: 300px;
+    height: 300px;
+}
